@@ -19,7 +19,7 @@ jobs:
           node-version: 10.x
       - name: npm install
         run: |
-          npm install
+          npm https://github.com/xinjunxin/JRTT.git~git
       - name: "运行【ZhiYi-N🚗】"
         run: |
           node bus.js
