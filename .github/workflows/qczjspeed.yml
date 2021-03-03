@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/xinjunxin/flw ~/Task
+          git clone https://github.com/xinjunxin/flw ~/flw
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
