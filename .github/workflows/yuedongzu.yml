@@ -31,7 +31,7 @@ jobs:
           cd ~/JavaScript
           npm install
       - name: '运行 【悦动族】'
-        if: env.XL_URL
+        if: env.YDZ_yuedongzuTOKEN
         run: |
           cd ~/QuanX
           node task/ziye/yuedongzu.js
