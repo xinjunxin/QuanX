@@ -1,0 +1,3 @@
+hostname = m.qtyromm.top
+
+http:\/\/m.qtyromm.top\/read_channel\/do_read&pageshow.* url script-request-body https://raw.githubusercontent.com/Wenmoux/scripts/wen/other/jrkuaixun.js
